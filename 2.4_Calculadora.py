@@ -40,7 +40,7 @@ while(repetir == 'Y'):
             print('Haz elegido Modulo.')
             primerValor=float(input('Ingresa tu primer valor: '))
             segundoValor=float(input('Ingresa tu segundo valor: '))
-            print(f'El resultado es {primerValor-segundoValor}')
+            print(f'El resultado es {primerValor%segundoValor}')
         elif(seleccion == 7):
             print('Haz elegido Comparar <,>,=.')
             primerValor=float(input('Ingresa tu primer valor: '))
